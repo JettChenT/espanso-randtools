@@ -3,10 +3,10 @@
 RandTools is a tool for espanso to generate random strings on the fly, which could be used in 
 filling up random usernames/ passwords, generating API keys, etc.
 
-This tool requires openssl to be installed on your system.
+This tool requires `openssl` to be installed on your system.
 
 ## Usage
 
-'hrand{n};' generates a random string of length n, where n is an integer, using `openssl rand -hex`.
+`hrand{n};` generates a random string of length n, where n is an integer, using `openssl rand -hex`.
 
-'brand{n};' generates a random string of length n, where n is an integer, using `openssl rand -base64`.
+`brand{n};` generates a random string of length n, where n is an integer, using `openssl rand -base64`.
