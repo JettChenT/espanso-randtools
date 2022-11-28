@@ -1,4 +1,4 @@
-- matches
+matches:
   - regex: "hrand(?P<num>.*?);"
     replace: "{{result}}"
     vars:
